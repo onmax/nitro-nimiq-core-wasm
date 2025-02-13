@@ -5,4 +5,7 @@ export default defineNitroConfig({
   experimental: { wasm: true },
   wasm: {lazy:true, esmImport: true},
   preset: "cloudflare_pages",
+  externals: {
+    inline: ['@nimiq/core']
+  }
 });

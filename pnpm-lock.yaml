@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@nimiq/core':
-    hash: mcjwsnxe3yk2wtqa7kkvmqi3g4
+    hash: kjajdfmzjuyqwmm3k3z7qs4ife
     path: patches/@nimiq__core.patch
 
 importers:
@@ -15,7 +15,7 @@ importers:
     dependencies:
       '@nimiq/core':
         specifier: ^2.0.6
-        version: 2.0.6(patch_hash=mcjwsnxe3yk2wtqa7kkvmqi3g4)
+        version: 2.0.6(patch_hash=kjajdfmzjuyqwmm3k3z7qs4ife)
     devDependencies:
       nitropack:
         specifier: latest
@@ -2238,7 +2238,7 @@ snapshots:
       '@netlify/node-cookies': 0.1.0
       urlpattern-polyfill: 8.0.2
 
-  '@nimiq/core@2.0.6(patch_hash=mcjwsnxe3yk2wtqa7kkvmqi3g4)':
+  '@nimiq/core@2.0.6(patch_hash=kjajdfmzjuyqwmm3k3z7qs4ife)':
     dependencies:
       comlink: 4.4.2
       websocket: 1.0.35
