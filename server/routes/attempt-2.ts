@@ -4,7 +4,6 @@ import init, { PublicKey } from '@nimiq/core/web'
 import mod from './nimiq.wasm'
 
 export default defineEventHandler(async () => {
-  console.log('Running attemp 2')
   await init(mod)
   // await mod()
   console.log('______Running attemp 2')
